@@ -12,9 +12,6 @@ loadR0posterior =TRUE
 
 ## load data: Population age structure (currently using China's) and Contact matrices
 
-loadPopData = TRUE
-loadContactMatrices = TRUE
-
 # 1) population data
 if(loadPopData) 
 { 
