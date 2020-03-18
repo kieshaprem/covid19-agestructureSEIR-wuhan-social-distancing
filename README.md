@@ -1,8 +1,26 @@
-# covid19-agestructureSEIR-wuhan-social-distancing
-Age-structured SEIR model for COVID-19 outbreak in Wuhan, China
+# The effect of control strategies that reduce social mixing on outcomes of the COVID-19 epidemic in Wuhan, China: a modelling study"
 
-aim: to assess the potential effect of social distancing interventions under various scenarios 
---S1: counterfactual (theoretical) 
---S2: school winter break + lunar new year extended holidays 
---S3a: Intense social distacing interventions to be gradually relaxed from Mar 2020 
---S3a: Intense social distacing interventions to be gradually relaxed from Apr 2020
+*Contributors: Kiesha Prem <sup>†</sup>, Yang Liu <sup>†</sup>, Timothy W Russell, Adam J Kucharski, Rosalind M Eggo, Nicholas Davies, Centre for the Mathematical Modelling of Infectious Diseases COVID-19 Working Group, Mark Jit, Petra Klepac*
+  
+  *Correspondence to: kiesha.prem@lshtm.ac.uk* 
+  
+  *<sup>†</sup> authors contributed equally* 
+  
+  *The full paper accompanying this report can be found as a preprint [here:](https://www.medrxiv.org/content/10.1101/2020.03.09.20033050v1)*
+
+
+## Aim
+
+To assess the impact of a range of control measures that reduce social mixing on data from the COVID-19 outbreak in Wuhan, China. Using the best estimates for the epidemiological parameters, we simulate the effects of the control measures using an age-structured, location-specific transmission model. The model uses data on contact patterns. Specifically, we adjust these patterns according to how they change under certain control measures. We then simulate our transmission model under these different scenarios and assess the impact.
+
+## Introduction
+
+The SARS-CoV-2, a novel coronavirus, emerged in the City of Wuhan, Hubei Province, China, in early December 2019.(1,2) Since then, the local and national governments have taken unprecedented measures in response to the COVID-19 outbreak caused by SARS-CoV-2.(3) Exit screening of passengers was shortly followed by travel restrictions in Wuhan on 23rd January 2020, halting all means of unauthorised travel into and out of the city. Similar control measures were extended to the entire province of Hubei by 26th January 2020.(3) Non-pharmaceutical social distancing interventions such as extended school closure and workplace distancing were introduced to reduce the impact of the COVID-19 outbreak in Wuhan.(4) Within the city, schools remained closed; Lunar New Year holidays were extended so that people stayed away from their workplaces; the local government promoted social distancing and encouraged residents to avoid crowded places. These measures are known to have greatly changed the age-specific mixing patterns within the population in previous outbreak response efforts for other respiratory infectious diseases.(5,6) While travel restrictions undoubtedly had a role in reducing the exportations of infections outside of Wuhan, and delayed the onset of outbreaks in other regions,(7,8) changes in the mixing patterns affected the trajectory of the outbreak within Wuhan itself. In order to estimate the effects of social distancing measures on the progression of the COVID-19 epidemic, we look at Wuhan, hoping to provide some insights for the rest of the world.
+
+To examine how these changes in population mixing have affected the outbreak progression in Wuhan, we used synthetic location-specific contact patterns in Wuhan and adapted it in the presence of school closures, extended workplace closures, reduction in mixing in the general community. Using these matrices and the latest estimates of the epidemiological parameters of the Wuhan outbreak,(1,9,14–16) we simulated the ongoing trajectory of an outbreak in Wuhan using an age-structured susceptible-exposed-infected-removed (SEIR) model(17,18) for several social distancing measures. 
+
+
+## Discussion
+This study describes a mathematical model that quantifies the potential impacts of social distancing policies, relying on Wuhan as a case study. Epidemiological investigations conducted during the WHO-China Joint Mission on COVID-19 found many infections clustered around the households.(35) Extreme social distancing measures, including school closures, workplace closures, and avoiding any public gatherings all at once, can push the transmission to households leading to increased clustering in household cases.(5) As households are not explicitly included in the model, we do not consider heterogeneity and clustering of household transmission. Distinguishing between repeated and new contacts is important for disease propagation in contact network models,(36,37) more sophisticated methods accounting for temporal presence within the household(38) would be needed to characterise higher degrees of contact. Our compartmental model does not capture individual-level heterogeneity in contacts, which could be important in super-spreading events, particularly early on in an epidemic. In combination with nosocomial infections, the risk of COVID-19 infections is potentially amplified in close contacts of confirmed cases and healthcare workers. However, the compartmental model we presented is not equipped to explicitly consider transmission within health care institutions and households. More complex models, such as individual-based models with familial and healthcare structures, should be explored. Further research on the nosocomial infection risks among healthcare workers and patients have been identified as one of the research gaps to be prioritised in the next few months by the WHO.
+
+While the precise estimates of the impact of interventions may vary by country and indeed different estimates of key parameters, our model highlights the usefulness of social distancing interventions as well as the need to carefully calibrate their lifting to avoid second and subsequent waves of a COVID-19 epidemic. Non-Hubei China, and other east or southeast Asian regions have managed to avert a major outbreak locally and delayed the peak without resorting to Hubei’s extreme measures.(39) Policymakers are advised to reapportion their resources to focus on mitigating the impact of their potentially soon-do-be overwhelmed health system.(40)
