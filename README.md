@@ -1,4 +1,4 @@
-# covid19_ageStructuredSEIRsocialDistancingWuhan2020
+# covid19-agestructureSEIR-wuhan-social-distancing
 Age-structured SEIR model for COVID-19 outbreak in Wuhan, China
 
 aim: to assess the potential effect of social distancing interventions under various scenarios 
