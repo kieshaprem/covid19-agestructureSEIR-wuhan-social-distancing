@@ -6,7 +6,7 @@
   
   *<sup>†</sup> authors contributed equally* 
   
-  *The full paper accompanying this report can be found as a preprint [here:](https://www.medrxiv.org/content/10.1101/2020.03.09.20033050v1)*
+  *The full paper accompanying this report can be found [here:](https://www.thelancet.com/journals/lanpub/article/PIIS2468-2667(20)30073-6/fulltext#sec1)*
 
 
 ## Aim
